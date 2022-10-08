@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Base Social</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="containerLogin">
+        <img src="imagens/logo.jpeg" alt="logo base social">
+        <form onsubmit="validacao()">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" required>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" required>
+
+            <label for="texto">
+                <input type="checkbox" value="" id="texto"> Continuar logado?
+            </label>
+            <input type="submit" value="login" class="botao">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
